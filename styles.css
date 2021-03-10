@@ -1,0 +1,187 @@
+body {
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+.navbar-brand span {
+    color:#00b39b;
+}
+
+a.navbar-brand {
+    color:#ababab !important;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.navbar-nav a.nav-link {
+    color:#ababab !important;
+    
+}
+
+.navbar-nav a.nav-link:hover {
+    color: #00b39b !important;
+
+}
+
+#about {
+    color: #00b39b !important;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.accent-color {
+    color: #00b39b !important;
+
+}
+
+main i.icon {
+    font-size:50px;
+    color: #00b39b !important;
+    margin-bottom: 40px;
+
+}   
+
+.first {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-text .flex-column {
+    width: 60%;
+}
+
+.box {
+    height: 345px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    color: #fff;
+    width: 28%;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.patients {
+    background: #00ccb1;
+}
+
+.doctors {
+    background: #3d83df;
+}
+
+.clinics {
+    background: #1b2734;
+}
+
+.third {
+    margin-bottom: 3rem;
+}
+
+.fourth {
+    background: #e5faf8;
+    background-image: linear-gradient(
+-45deg
+,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 30px;
+}
+
+.fourth .content {
+    width: 50%;
+    padding: 3rem;
+}
+
+.fourth .content h3 {
+    font-family: Work Sans,Arial,sans-serif;
+    color:#00ccb1 !important;
+    font-weight: 300;
+}
+
+.fourth .cards .card i{
+    color:#00ccb1;
+}
+
+.cards .card h3{
+    color:#00ccb1;
+    
+}
+
+.fourth .cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.cards .card {
+    width: 250px;
+    height: 250px;
+
+}
+
+.fifth {
+    padding: 5rem;
+}
+
+.fifth .content{
+    margin: 0 auto;
+}
+
+.fifth .content h3 {
+    color:#00ccb1;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.fifth .content p {
+    width: 50%;
+    text-align: center;
+}
+
+.sixth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+
+.sixth h5 {
+    color: #333;
+}
+
+.sixth button {
+    background: #1662c6;
+    border-color: #0a53be;
+}
+
+footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p{
+    font-size: 12px;
+    color: #ababab;
+}
+
